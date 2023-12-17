@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: green;
+    background-size: cover;
+}
+.col{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-bottom :300px ;
+}
+.row{
+    
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+
+}
